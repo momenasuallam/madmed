@@ -1,0 +1,16 @@
+ .leading-7{
+                color: black;
+    font-size: 15px;
+    line-height: initial;
+    margin-top: 10px !important;
+        }
+        .leadingul ul{
+             color: black;
+    font-size: 15px;
+    line-height: initial;
+    margin-top: 10px;
+    list-style: number;
+        }
+        .text-gray-700{
+            color: #000 !important;
+        }

@@ -1,0 +1,40 @@
+.errorpage404{
+  padding: 20px;
+}
+.svg {
+  width: 100%;
+}
+.svg__character {
+  fill: #06038d;
+}
+.svg__line {
+  fill: none;
+  stroke: #2fbce1;
+  stroke-dasharray: 6;
+  stroke-width: 1;
+  stroke-linejoin: round;
+}
+.svg__dot {
+  fill: #2fbce1;
+}
+.svg__plane {
+  transform: translate(-6px, -11px) rotate(25deg);
+  fill: #2fbce1;
+  opacity: 0;
+}
+.svg__mask {
+  fill: none;
+  stroke: white;
+  stroke-width: 10;
+  stroke-dasharray: 480;
+  stroke-dashoffset: 480;
+}
+.alert{
+  text-align: center;
+  font-size: 14px;
+}
+@media(min-width: 600px){
+  .alert{
+  margin-top: -10%;
+}
+}
