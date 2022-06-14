@@ -10031,3 +10031,34 @@ top: 6px;
 .form-label{
   font-size: 14px !important;
 }
+.dropdown-toggle::after{
+      background-color: white;
+    color: white !important;
+}
+.form-control{
+      border: 1px solid #ced4da !important;
+}
+.form-control:focus {
+    box-shadow: 0 0 0 0rem rgb(13 110 253 / 0%) !important;
+    border: 1px solid blue !important;
+}
+.form-select:focus{
+   box-shadow: 0 0 0 0rem rgb(13 110 253 / 0%) !important;
+    border: 1px solid blue !important;
+}
+.alert a{
+  text-decoration: none !important;
+}
+.aclick{
+  color: red !important;
+  text-decoration: none !important;
+}
+.dngrbtn{
+  background-color: red;
+  color: #fff;
+  padding: 6px 25px;
+  border-radius: 8px;
+}
+.dngrbtn:hover{
+  color: #fff !important;
+}
