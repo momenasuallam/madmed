@@ -206,11 +206,12 @@ body .button i.icon-material-outline-arrow-right-alt {
 }
 
 .card {
-  background-color: white;
-  border-radius: 8px;
+  background-color: white !important;
+  border-radius: 8px !important;
   overflow: hidden;
   -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
           box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+          border: 0px solid !important;
 }
 
 .card .card-media {
@@ -806,7 +807,7 @@ button, body .pac-container {
 
 /* Headlines */
 h1, h2, h3, h4, h5, h6 {
-  color: #333;
+  color: #333 !important;
   font-weight: 500;
   margin: 0;
   padding: 0;
@@ -9832,10 +9833,13 @@ color: #fff !important;
 margin-bottom: 8px;
 }
 .eventstab h4{
-  font-size: 14px; 
+  font-size: 12px; 
   margin-bottom: 0px;
   font-weight: 400;
   color: #2fbce1;
+}
+.colorblck{
+  color: #000 !important;
 }
 .eventstab h3{
  color: #000 !important;
@@ -10129,4 +10133,23 @@ top: 6px;
 		margin: 0 auto;
 	}
 
+}
+.privacybotm{
+position: absolute;
+    bottom: 0;
+    width: 93%;
+}
+.privacybotm a{
+    font-size: 13px !important;
+}
+ul{
+  padding-left: 0px !important;
+}
+.eventrect{
+  color: #666666 !important;
+  font-size: 14px !important;
+}
+.eventrect h3{
+    color: #666666 !important;
+  font-size: 14px !important;
 }
